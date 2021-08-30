@@ -1,7 +1,7 @@
 "use strict";
-import dotenv from "dotenv";
-import { google } from "googleapis";
-import nodemailer from "nodemailer";
+const dotenv = require("dotenv");
+const { google } = require("googleapis");
+const nodemailer = require("nodemailer");
 
 dotenv.config();
 
