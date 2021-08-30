@@ -1,7 +1,7 @@
 "use strict";
-const dotenv = require("dotenv");
-const { google } = require("googleapis");
-const nodemailer = require("nodemailer");
+import dotenv from "dotenv";
+import { google } from "googleapis";
+import nodemailer from "nodemailer";
 
 dotenv.config();
 
@@ -27,7 +27,7 @@ async function sendMail() {
         type: "OAuth2",
         user: "your authorised email address",
         clientId: CLIENT_ID,
-        clientSecret: CLEINT_SECRET,
+        clientSecret: CLIENT_SECRET,
         refreshToken: REFRESH_TOKEN,
         accessToken: accessToken,
       },
