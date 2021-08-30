@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "main": "index.ts",
   "license": "MIT",
-  "type": "module",
   "dependencies": {
     "dotenv": "^10.0.0",
     "googleapis": "^84.0.0",
     "nodemailer": "^6.6.3",
+    "ts-node": "^10.2.1",
     "uuid": "^8.3.2"
   },
   "devDependencies": {
